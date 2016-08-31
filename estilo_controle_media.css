@@ -1,0 +1,17 @@
+h1{
+	font-family: "Arial";
+	font-size: 40px;	
+	font-weight: bolder;
+	color: #00FFFF;
+}
+
+p{
+	color:#FFA500;
+	font-family: "Courier";
+	font-size: 23px;
+	font-weight: bold;
+}
+
+body{
+	background-color: #00008B;
+}

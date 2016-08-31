@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Calcular a média do aluno</title>
+		<script type="text/javascript" src="calcular_media.js"></script>
+		<link rel="stylesheet" type="text/css" href="flame.css">
+	</head>
+	<body>		
+		<form>
+			<br><br>
+			<label>Nome completo:</label>
+			<input type="text" name="nome" size="52" maxlength="52"><br><br>
+			<label>Série:</label>
+			<input type="text" name="serie" size="5" maxlength="10">
+			<label>Turma:</label>
+			<input type="text" name="turma" size="5" maxlength="10">
+			<label>Matéria:</label>
+			<input type="text" name="matéria" size="20" maxlength="20"><br><br>
+			<label>Nome do professor:</label>
+			<input type="text" name="professor" size="45" maxlength="45"><br><br>
+			<label>Sexo:</label>
+			<p>
+			<input type="radio" name="sexo" value="masculino">Masculino<br>
+			<input type="radio" name="sexo" value="feminino">Feminino<br>
+			</p>
+			<label>1ª Nota:</label>
+			<input type="text" name="nota1" size="5" maxlength="10"><br><br>
+			<label>2ª Nota:</label>
+			<input type="text" name="nota2" size="5" maxlength="10"><br><br>
+			<label>3ª Nota:</label>
+			<input type="text" name="nota3" size="5" maxlength="10"><br><br>
+			<label>4ª Nota:</label>
+			<input type="text" name="nota4" size="5" maxlength="10"><br><br>		
+			<input type="button" name="button" value="Calcular Média" onclick="mostrar_resultado(this.form)">
+			<input type="reset" name="limpar" value="Limpar Campos">
+		</form>
+	</body>
+</html>
